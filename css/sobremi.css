@@ -1,0 +1,47 @@
+.sobremi{
+    background: #d1e3fb;
+}
+
+.sobremi__container{
+    width: 80%;
+    padding: 40px;
+    margin-left: 25px;
+    
+
+}
+
+.sobremi__titulo{
+    font-family: Raleway;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 30px; 
+
+}
+
+.sobremi__parrafo{
+    text-align: justify;
+    text-indent: 25px;
+    padding: 15px;
+    font-family: Raleway;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+}
+
+.sobremi__firma{
+    width: 25%;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 450px){
+
+    .sobremi__container{
+        padding: 10px;
+    }
+    
+    .sobremi__titulo{
+        margin-top: 20px;
+    
+    }
+
+}

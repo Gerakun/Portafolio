@@ -1,0 +1,9 @@
+html,body{
+    font-family: Raleway;
+    scroll-behavior: smooth;
+    
+}
+
+.todo{
+    background: #F5F5F5;
+}

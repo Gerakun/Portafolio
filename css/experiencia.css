@@ -1,0 +1,147 @@
+.experiencia{
+    background:#F5F5F5;
+    padding: 40px;
+}
+
+.experiencia__seccion__titulo{
+    padding: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 2.3rem;
+    font-weight: 600; 
+
+}
+
+.experiencia__caja{
+    width: 80%;
+    padding: 40px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experiencia__img{
+    width: 735px;
+    height: fill;
+    border-radius: 20px;
+}
+
+.experiencia__info-container{
+    margin-left: 30px;
+}
+
+.experiencia__titulo{
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.experiencia__texto{
+    font-family: Raleway;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.experiencia__descripcion{
+    padding: 15px;
+    width: 100%;
+    
+}
+
+.experiencia__repositorio{
+    margin-right: 8px; 
+ 
+}
+
+.experiencia__boton--repo{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: Raleway;
+    font-weight: 600;
+    width: 110px;
+    height: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #91C9FF;
+    border: 1px solid #76bdff;
+    outline: none;
+    transition: 1s ease-in-out;
+    
+}
+
+.experiencia__boton--repo:hover{
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+}
+
+.experiencia__demo{
+    margin-left: 8px;
+}
+
+.experiencia__boton--demo{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: Raleway;
+    font-weight: 600;
+    width: 110px;
+    height: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #91C9FF;
+    border: 1px solid #76bdff;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+.experiencia__boton--demo:hover{
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+}
+
+
+@media screen and (max-width: 1020px){
+ 
+    .experiencia__caja{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .experiencia__img{
+        width: 550px;
+        height: fill;
+        
+    }
+}
+
+@media screen and (max-width: 450px){
+
+    .experiencia__caja{
+
+        width: 80%;
+        padding: 10px;
+        align-items: center;
+    }
+    
+    .experiencia__img{
+        width: 350px;
+    }
+    
+    .experiencia__info-container{
+        margin-left: -70px;
+    }
+    
+    .experiencia__titulo{
+      
+        font-size: 1.2rem;    
+    }
+    
+}

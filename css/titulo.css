@@ -1,0 +1,93 @@
+.titulo{
+    background:#F5F5F5 ;
+    padding: 20px;
+}
+
+.titulo__div{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.titulo__perfil{
+    width: 25%;
+    border-radius: 100%;
+}
+
+.titulo__container{
+    padding: 10px;
+}
+
+.titulo__bio{
+    padding: 15px;
+    font-family: Raleway;
+    font-size: 2.3rem;
+    font-weight: 600; 
+}
+
+.titulo__formacion{
+    text-align: justify;
+    text-indent: 25px;
+    padding: 15px;
+    font-family: Raleway;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.titulo__redes{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.titulo__redes__item{
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 1020px) {
+    .titulo__div{
+        align-items: flex-start;      
+    }
+
+    .titulo__perfil{
+        margin-top: 25px;
+    }    
+} 
+
+@media screen and (max-width: 450px) {
+   
+    .titulo__div{
+        flex-direction:column;      
+    }
+
+
+
+.titulo__bio{   
+    font-size: 2rem;
+    margin-right: 5px; 
+    text-align: justify;
+}
+
+.titulo__formacion{
+   
+    font-size: 1.2rem;
+    margin-right: 5px;
+    
+}
+
+.titulo__redes{
+   
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.titulo__redes__item{
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+} 

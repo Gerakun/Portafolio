@@ -1,0 +1,104 @@
+.estudios{
+    background: #d1e3fb;
+    padding: 40px;
+
+}
+
+.estudios__titulo{
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 2.3rem;
+    font-weight: 600; 
+
+}
+
+.estudios__cursos{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.estudios__cursos__caja{
+    background: white;
+    width: 368px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 286px;
+    padding: 16px;
+    gap: 10px;
+
+}
+
+
+.estudios__cursos__img{
+    display: flex;
+    justify-content: center;  
+  
+}
+
+.estudios__cursos__icon{
+    width: 192px;
+
+}
+.estudios__cursos__titulo{
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.estudios__cursos__subtitulo{
+    font-family: Raleway;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 10px;   
+}
+
+@media screen and (max-width: 1020px) {
+    .estudios__cursos{
+        width: 100%;   
+    }
+
+    .estudios__cursos__caja{
+        width: 280px;
+    
+    }
+    
+} 
+
+@media screen and (max-width: 450px){
+
+    .estudios__cursos__caja{
+       
+        margin: 10px;
+        width: 280px;
+        height: 205px;
+        padding: 16px;
+        gap: 10px;
+    
+    }
+    
+    
+    .estudios__cursos__img{
+        display: flex;
+        justify-content: center;  
+      
+    }
+    
+    .estudios__cursos__icon{
+        width: 102px;
+    
+    }
+    .estudios__cursos__titulo{
+       
+        font-size: 1rem;
+        margin-top: 15px;
+        
+    }
+    
+}
