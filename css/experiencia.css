@@ -3,6 +3,11 @@
     padding: 40px;
 }
 
+.experiencia__container{
+    display: flex;
+    flex-wrap:wrap; 
+}
+
 .experiencia__seccion__titulo{
     padding: 10px;
     margin-bottom: 40px;
@@ -14,9 +19,9 @@
 }
 
 .experiencia__caja{
-    width: 80%;
+    width: 85%;
     padding: 40px;
-    margin-left: 25px;
+    margin:auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +31,9 @@
     width: 735px;
     height: fill;
     border-radius: 20px;
+    border: 0.5px solid silver;
 }
+
 
 .experiencia__info-container{
     margin-left: 30px;
